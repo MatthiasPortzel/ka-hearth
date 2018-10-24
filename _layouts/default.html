@@ -19,8 +19,8 @@
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
         <h1>
-            <img src="/assets/images/logo.png" height="36px" style="padding-right: 12px;">
-            <a href="/" style="position: absolute;">{{ site.title | default: site.github.repository_name }}</a>
+            <img src="{{ '/assets/images/logo.png' | relative_url }}" height="36px" style="padding-right: 12px;">
+            <a href="{{ '/' | relative_url }}" style="position: absolute;">{{ site.title | default: site.github.repository_name }}</a>
         </h1>
         {% if site.description or site.github.project_tagline %}
           <p>{{ site.description | default: site.github.project_tagline }}</p>

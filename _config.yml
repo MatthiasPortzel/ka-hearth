@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: KA Hearth
-email: your-email@example.com
+email: MatthiasSaihttam1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A small blog where Matthias posts thoughts on things happening around Khan Academy.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ka-hearth" # the subpath of your site, e.g. /blog
+url: "https://MatthiasSaihttam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Matthias_4910
 github_username:  MatthiasSaihttam
 
@@ -29,6 +29,9 @@ plugins:
   - jekyll-feed
 
 permalink: /posts/:title
+
+github:
+  repository_url: https://github.com/MatthiasSaihttam/ka-hearth
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
