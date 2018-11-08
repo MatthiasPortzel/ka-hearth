@@ -39,7 +39,7 @@ produces the following error from Error Buddy:
 It should go without saying, this is not an error message that Khan Academy or any one else wrote for you. This the direct Javascript error from running your code (after KA's modifications--hence the `__env__.`).
 
 ### 5. Loop Errors
-These errors are possibly the weirdest, in that they're the least like the other types. The basics though are that KA transforms your code to increase a counter whenever a loop iterates. If this counter gets above a given number, by default it's `1000`, Error Buddy throws an error.
+These errors are possibly the weirdest, in that they're the least like the other types. 
 
 ### 6. Errors Not Caught
 I suppose there's a sixth type of error on Khan Academy, and those are the ones not caught by Error Buddy. These errors aren't caught by option 4 for some reason, and instead fall through to the developer console, silently halting the execution of code in the live editor. It's relatively hard to find one of these, but [this program](https://www.khanacademy.org/cs/i/6715456460554240) represents one. This particular bug with the live editor was brought up by a user [here](https://github.com/Khan/live-editor/592) (and should really be reopened, since it still effects the editor).

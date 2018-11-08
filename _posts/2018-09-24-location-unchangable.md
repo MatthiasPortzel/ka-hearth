@@ -1,5 +1,5 @@
 ---
-title: "KA Breaks changing your location"
+title: "KA breaks changing your location"
 layout: "default"
 ---
 
