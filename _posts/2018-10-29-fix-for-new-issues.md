@@ -3,7 +3,7 @@ title: "A fix for memory leaks with OOP"
 layout: "default"
 ---
 
-The issue is of course described in my [earlier post](/ka-hearth/posts/memory-leak-with-new).<br>
+The issue is of course described in my [earlier post](/ka-hearth/posts/new-memory-leak).<br>
 I stumbled across a solution to this issue when looking at Sherlock Holme's recent [Planes 2](https://khanacademy.org/cs/i/5707702964748288). Include the following code snippet at the top of the program.
 
 ```js
