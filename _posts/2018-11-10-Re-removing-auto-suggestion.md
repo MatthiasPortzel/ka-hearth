@@ -5,7 +5,7 @@ title: "KA's removing auto suggestion from the live editor (again)"
 
 I broke my silence on the [live editor Github](https://github.com/Khan/live-editor) today (which I've maintained since Kevin asked everybody to stop submitting pull requests). I commented, asking Pamela to reconsider her decision to remove the code that powers auto suggestion in the live editor. You can see my comment [here](https://github.com/Khan/live-editor/pull/695#issuecomment-437649648).
 
-In that comment, I mention a code snippet I use to turn on and off live autosuggestion. If KA goes through with this change, I'll probably make a new post with an updated code snippet to restore some of the live suggestion functionity. For now, here's my current code (to be run in the console of KA program page):
+In that comment, I mention a code snippet I use to turn on and off live autosuggestion. If KA goes through with this change, I'll probably make a new post with an updated code snippet to restore some of the live suggestion functionality. For now, here's my current code (to be run in the console of KA program page):
 ```js
 //Turn it on. You could add other Ace options here too, even without the lower line.
 ScratchpadAutosuggest.editor.setOptions({enableLiveAutocompletion: true});
