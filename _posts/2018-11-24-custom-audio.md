@@ -23,8 +23,12 @@ When I first got the idea to try this, I didn't think it would work because of C
 
 The [`Audio` constructor](https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement), however, doesn't check the Content-Type of the data it is requesting. This is definitely weird. It's not a security issue as such--the worst someone could do was play "illegal" sounds--but it seems like this is a browser bug. If I took the time to find the correct place to report this, it would probably be fixed/changed in the future. Speaking of browsers, this proof of concept doesn't seem to work on Safari. The error I was getting was vague, though, so it's possible Safari isn't smart enough to realize the security issue, and was having issues playing the media in the later place.
 
+### Is this allowed?
+
+I talked to Josh (https://khanacademy.org/profile/kaid_724017587964593627235978) and he said no. He seemed receptive to the general idea, but I can understand how uploading whole files in a place KA doesn't want to upload files in the first place is something KA wants to shut down. My initial proof of concept program remains unhidden, but Thomas made a pretty sweet [program](https://khanacademy.org/cs/i/5729098250485760) utilizing this technique that got completely hidden. Don't do this at home kids.
+
 ### Examples
-**HTML** (theoretically allowed)
+**HTML**
 ```html
 <button onclick="snd.play()">Click me!</button>
 <script>
@@ -32,7 +36,7 @@ The [`Audio` constructor](https://developer.mozilla.org/en-US/docs/Web/API/HTMLA
 </script>
 ```
 
-**Processing.js** (may get your program hidden from the hotlist)
+**Processing.js**
 ```js
 var getAudio = function (url) {
     return (new ((function (a) { return this[a]; } )("Function"))("return new Audio(\"" + url + "\")"))();
