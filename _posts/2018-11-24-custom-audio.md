@@ -25,7 +25,7 @@ The [`Audio` constructor](https://developer.mozilla.org/en-US/docs/Web/API/HTMLA
 
 ### Is this allowed?
 
-I talked to Josh (https://khanacademy.org/profile/kaid_724017587964593627235978) and he said no. He seemed receptive to the general idea, but I can understand how uploading whole files in a place KA doesn't want to upload files in the first place is something KA wants to shut down. My initial proof of concept program remains unhidden, but Thomas made a pretty sweet [program](https://khanacademy.org/cs/i/5729098250485760) utilizing this technique that got completely hidden. Don't do this at home kids.
+I talked to [Josh](https://khanacademy.org/profile/kaid_724017587964593627235978) and he said no. He seemed receptive to the general idea, but I can understand how uploading whole files in a place KA doesn't want to upload files in the first place is something KA wants to shut down. My initial proof of concept program remains unhidden, but Thomas made a pretty sweet [program](https://khanacademy.org/cs/i/5729098250485760) utilizing this technique that got completely hidden. Don't do this at home kids.
 
 ### Examples
 **HTML**
