@@ -1,6 +1,6 @@
 ---
 title: "John Resig working on the Live Editor"
-template: "default"
+layout: "default"
 ---
 
 John Resig recently created a [PR](https://github.com/Khan/live-editor/696) on the Live Editor Github. John is the creator of JQuery and of Processing.js (the port of Processing that KA uses).
