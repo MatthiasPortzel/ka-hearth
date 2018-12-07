@@ -10,6 +10,7 @@ Aside from looking objectively worse, as a result of mixing the blue with the gr
 It remains to be seen if KA will continue blue-ifying areas of their website until their theme color is just blue, or if there will be a limit to this spread.
 
 ![Blue profile link](/ka-hearth/assets/images/2018-11-7-new-ka-blue.png)
-Screenshot of the new colors (with the KA extension, of course)
+Screenshot of the new colors (with the KA Extension, of course)
 
-I don't have any screenshots from just before this change; let me know if you have one.
+![Old profile link](/ka-hearth/assets/images/2018-11-7-old-ka-green.png)
+Screenshot of the old colors provided courtesy of [Jett](https://khanacademy.org/profile/kaid_455920429074646065838008) (with a slightly older version of the KA Extension, of course).
