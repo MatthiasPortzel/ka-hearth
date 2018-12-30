@@ -15,10 +15,10 @@ I had a couple of ideas, but none of them worked as well as the solution posted 
 
 Okay, just a little more before we get to the interesting part. I want to mention that the parser used by KA ([live-editor source link](https://github.com/Khan/live-editor/commit/7b2418209fd935c61aa0916f02893ea8d7dd7ea2)) for webpage projects (as Josh identified), is [Slowparse](https://github.com/mozilla/slowparse), by Mozilla. It's meant as an HTML validator, and so it throw errors for the custom attributes that Vue requires but that are not allowed by the HTML standard. Unfortunately, there's no official way to turnoff its errors like there is with JSHint.
 
-One interesting thing to note, is that no run time errors in the webpage environment are passed to Oh Noes. This is in contrast to the `try...catch` step in the [PJS error flow](/posts/error-buddy). Instead, webpages go through these steps:
+One interesting thing to note, is that no run time errors in the webpage environment are passed to Oh Noes. This is in contrast to the `try...catch` step in the [PJS error flow](/ka-hearth/posts/error-buddy). Instead, webpages go through these steps:
 
 1. Script tags have infinite loop protect code added. (This requires parsing the JS with [Eprisma](https://github.com/Khan/live-editor/blob/67e6b62e9bca6b3ed6dc5dfdcedae98c86df5af1/js/output/shared/loop-protect.js#L197), so Javascript syntax errors will be returned here.)
-2. HTML is parse with Slowparse.
+2. HTML is parsed with Slowparse.
 3. Some other changes are made ([source](https://github.com/Khan/live-editor/blob/fa96f04c7302b370dbbebc184a57309853d6d060/build/js/live-editor.output_webpage.js#L838)). Notably, links have a redirect confirm added and the title tag is kept in sync with the page title.
 4. The HTML is inserted into the page and run.
 
