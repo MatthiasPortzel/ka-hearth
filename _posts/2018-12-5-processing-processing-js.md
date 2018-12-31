@@ -5,7 +5,7 @@ layout: "default"
 
 There's frequently some confusion about the differences between Processing, Processing.js, and p5.js. All three aim to run the same code, so projects created in one should translate well to the others. However, there are important differences.
 
- - [Processing](https://processing.org) is a computer programming language, created in 2001 and based on Java. It focuses on bring code to the visual arts. It has a relatively intuitive system for drawing and coloring shapes on the screen.
+ - [Processing](https://processing.org) is a computer programming language, created in 2001 and based on Java. It focuses on bringing code to the visual arts. It has a relatively intuitive system for drawing and coloring shapes on the screen.
  - [Processing.js](http://processingjs.org) is an unofficial Javascript port of Processing created by John Resig in 2008. Because Javascript and Processing both use Java syntax, Processing.js is basically just a library.
  - [p5.js](http://p5js.org) was created later (2013), by the official Processing Foundation (the same people who originally made Processing).
 
