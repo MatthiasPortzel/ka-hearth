@@ -16,7 +16,7 @@
 title: KA Hearth
 email: MatthiasSaihttam1@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A small blog where Matthias posts thoughts on things happening around Khan Academy.
+  A small blog where Matthias posts thoughts on things happening around Khan Academy. <a href="/ka-hearth/about">About me</a>
 baseurl: "/ka-hearth" # the subpath of your site, e.g. /blog
 url: "https://MatthiasSaihttam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Matthias_4910
