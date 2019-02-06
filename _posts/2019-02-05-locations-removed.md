@@ -5,7 +5,7 @@ layout: "default"
 
 #### KA Removes locations
 
-On Januaray 9th, 2019, Khan Academy removed locations from the website. I'm about a month late for this to be news, but I think it's important enough an event to still be worth covering. (I first saw this noted by Nicholas.) This marks the resolution to [locations being unchangeable](location-unchangeable), and also to the Location Hack. At risk of being cynical, it seems like a typical KA fix to remove the cause of the problem rather than fixing it.s
+On Januaray 9th, 2019, Khan Academy removed locations from the website. I'm about a month late for this to be news, but I think it's important enough an event to still be worth covering. (I first saw this noted by Nicholas.) This marks the resolution to [locations being unchangeable](location-unchangeable), and also to the Location Hack. At risk of being cynical, it seems like a typical KA fix to remove the cause of the problem rather than fixing it.
 
 #### What were locations?
 
