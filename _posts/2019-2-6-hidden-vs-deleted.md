@@ -6,7 +6,7 @@ layout: "default"
 ### Hidden from Hot list
 
 Programs are hidden from the hotlist fairly often. These programs aren't eligible to show up on the hot or top list, no matter how many votes they get. Other than that, these programs are perfectly visible.
-Programs can be hidden from the hot list automatically if they have enough flags, or if they link to Art Maker Pro (see [here](hide-your-own-programs)). But they can also be hidden manually by guardians, and low effort programs or drawings or petitions get hidden from the hot list frequently.
+Programs can be hidden from the hot list automatically if they have three flags, or if they link to Art Maker Pro (see [here](hide-your-own-programs)). But they can also be hidden manually by guardians, and low effort programs or drawings or petitions get hidden from the hot list frequently.
 
 ### Completely hidden
 
