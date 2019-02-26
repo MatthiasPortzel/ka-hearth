@@ -4,7 +4,9 @@ layout: default
 slug: "csp"
 ---
 
-One of the most useful pieces of information you can have when trying to stretch the limits of Khan Academy's live-editor is knowledge of the Content Security Policy (CSP). The CSP defines what domains you can load certain types of data from on Khan Academy. It's returned as one of the headers (`content-security-policy`) from `https://www.kasandbox.org/computer-programming/exec/pjs`. Last I checked, the CSP for both the webpage and PJS environments is what's listed below:
+One of the most useful pieces of information you can have when trying to stretch the limits of Khan Academy's live-editor is knowledge of the Content Security Policy (CSP). The CSP defines what domains you can load certain types of data from on Khan Academy. For information about what CSP is, see [this post](/ka-hearth/posts/sandbox-post-requests) about making POST requests.
+
+The content security policy is returned as one of the headers (`content-security-policy`) from `https://www.kasandbox.org/computer-programming/exec/pjs`. Last I checked, the CSP for both the webpage and PJS environments is what's listed below:
 
 Data Type | CSP name | Valid values
 --- | --- | --- |
