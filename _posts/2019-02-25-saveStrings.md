@@ -1,7 +1,9 @@
 ---
-title: The allowed way to access localStorage in PJS
+title: The allowed [sic] way to access localStorage in PJS
 layout: default
 ---
+
+**Update: Two weeks after I made this, KA changed the guidelines to disallow it. See [this post](guideline-updates).**
 
 ### What is localStorage?
 
