@@ -22,7 +22,7 @@ One easy example is options. For example, if you type `==`, you probably meant `
 
 ### 3. Syntax Error
 
-A syntax error ([Github link]([here](https://github.com/Khan/live-editor/blob/11b9fb0c3d27bd0ff773cc9b4962506a064a9a41/js/output/pjs/pjs-code-injector.js#L495))) is perhaps the simplest and most deadly mistake you can make. This looks like forgetting a closing bracket, for instance. Normally, JSHint (#4) would catch this, but if JSHint fails to realize anything's wrong (or you've disabled JSHint errors), you'll still get an error. This is because KA parses and transforms your code before running it. I don't want to go into too much detail about that process here except to say that if your code can't be parsed, it can't be run and you'll get an error. In a normal environment, the easiest way to see one of these errors is putting a random back-tick (`` ` ``) somewhere in your code.
+A syntax error ([Github link](https://github.com/Khan/live-editor/blob/11b9fb0c3d27bd0ff773cc9b4962506a064a9a41/js/output/pjs/pjs-code-injector.js#L495)) is perhaps the simplest and most deadly mistake you can make. This looks like forgetting a closing bracket, for instance. Normally, JSHint (#4) would catch this, but if JSHint fails to realize anything's wrong (or you've disabled JSHint errors), you'll still get an error. This is because KA parses and transforms your code before running it. I don't want to go into too much detail about that process here except to say that if your code can't be parsed, it can't be run and you'll get an error. In a normal environment, the easiest way to see one of these errors is putting a random back-tick (`` ` ``) somewhere in your code.
 
 ### 4. Try Catch
 A `try...catch` block ([MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)) is a native Javascript feature. It prevents errors that occur inside the `try` from stoping the execution of the program, instead informing the `catch` block of the error. This is the last resort for Khan Academy's error catching. Khan Academy takes the error message that the browser throws, and passes it to Error Buddy. For example, the following code
@@ -39,7 +39,7 @@ produces the following error from Error Buddy:
 It should go without saying, this is not an error message that Khan Academy or any one else wrote for you. This the direct Javascript error from running your code (after KA's modifications--hence the `__env__.`).
 
 ### 5. Loop Errors
-These errors are possibly the weirdest, in that they're the least like the other types. 
+These errors are possibly the weirdest, in that they're the least like the other types.
 
 ### 6. Errors Not Caught
 I suppose there's a sixth type of error on Khan Academy, and those are the ones not caught by Error Buddy. These errors aren't caught by option 4 for some reason, and instead fall through to the developer console, silently halting the execution of code in the live editor. It's relatively hard to find one of these, but [this program](https://www.khanacademy.org/cs/i/6715456460554240) represents one. This particular bug with the live editor was brought up by a user [here](https://github.com/Khan/live-editor/592) (and should really be reopened, since it still effects the editor).
