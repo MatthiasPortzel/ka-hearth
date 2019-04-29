@@ -16,7 +16,7 @@ You can find me on
 - YCombinator ([@Matthias1](https://news.ycombinator.com/user?id=Matthias1))
 - Discord (@Matthias#4910)
 - Reddit ([/u/MatthiasSaihttam1](https://reddit.com/u/MatthiasSaihttam1))
-- Twitter ([@Matthias_4910](https://twitter.com./Matthias_4910))
+- Twitter ([@Matthias_4910](https://twitter.com/Matthias_4910))
 
 I'm also reachable by email at Matthias1@vivaldi.net or MatthiasSaihttam1@gmail.com.
 
