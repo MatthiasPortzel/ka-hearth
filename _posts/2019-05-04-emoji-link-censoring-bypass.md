@@ -3,7 +3,7 @@ layout: default
 title: Using emojis in a domain name to bypassing link-censoring
 ---
 
-In my previous two posts I described how KA is [censoring links in bios](bio-links) and a (now-fixed) [trick for bypassing this](bio-censoring-bypass). This post is a follow up to those two sharing another way to bypass link blocking. 
+In my previous two posts I described how KA is [censoring links in bios](bio-links) and a (now-fixed) [trick for bypassing this](bio-censoring-bypass). This post is a follow up to those two sharing another way to bypass link blocking. There is now a [new post](more-link-censoring-bypasses) describing two better ways of bypassing this filter.
 
 The URL matching KA employs assumes that the domain name is composed of `-` and capital and lower case letters (`[-a-zA-Z]`). However, it is possible for a domain name to include unicode characters, for the purposed of internationalization and non-English domains.
 

@@ -3,7 +3,7 @@ title: Patched bypass for bio link censoring
 layout: default
 ---
 
-This is the technical analysis of the KA's code censoring, including discussion of how to bypass it, that I retracted from my earlier news post about link censoring, [here](bio-links). I felt obliged to report this to KA, so I filed a Zendesk report, and it has been fixed, so a lot of the below analysis is outdated.
+This is the technical analysis of the KA's code censoring, including discussion of how to bypass it, that I retracted from my earlier news post about link censoring, [here](bio-links). I felt obliged to report this to KA, so I filed a Zendesk report, and it has been fixed, so a lot of the below analysis is outdated. You can find two currently-working bypasses in [this post](more-link-censoring-bypasses).
 
 ### KA's source
 
