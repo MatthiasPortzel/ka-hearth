@@ -7,7 +7,7 @@ There are several alternatives to bypassing KA's bio-link-censoring that are ~~a
 
 ### KA doesn't like this
 
-I received a guardian message after my last post asking me not to try to avoid the link filter. (My thoughts on that can be found here [post coming soon].)
+I received a guardian message after my last post asking me not to try to avoid the link filter. (My thoughts on that can be found [here](link-censoring-guardian-message).)
 
 This discussion is for academic purposes. I can't even say, "use at your own risk," because I recommend not using these techniques.
 
