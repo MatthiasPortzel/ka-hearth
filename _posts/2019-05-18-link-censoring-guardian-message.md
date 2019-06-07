@@ -1,6 +1,7 @@
 ---
 title: Guardian message about link censoring bypasses
 layout: default
+published: false
 ---
 
 For a little while I had a link to a [previous post](emoji-link-censoring-bypass) in my bio (using an emoji-domain link-shortener; this was a while before my last post). However, I recived a Gaurdian message because of this, the text of which is below:

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: More link censoring bypasses
+published: false
 ---
 
 There are several alternatives to bypassing KA's bio-link-censoring that are ~~a little~~ more elegant than the way I described in my [previous method, using emojis in domain names](emoji-link-censoring-bypass).
