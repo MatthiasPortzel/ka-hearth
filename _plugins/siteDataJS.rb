@@ -24,6 +24,13 @@ module Jekyll
             posts: post_list
         }
         
-        File.write('_site/loadSiteData.js', "handleSiteData(#{site_data.to_json})");
+        File.write('_site/loadSiteData.js', "handleSiteData(#{site_data.to_json(
+            {
+                indent: "    ",
+                object_nl: "\n",
+                array_nl: "\n",
+                space: " "
+            }
+        )})");
     end
 end
