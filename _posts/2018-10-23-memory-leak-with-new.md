@@ -13,7 +13,7 @@ Now, I use PVectors primarily as an example here. This same bug effects any user
 
 ### How can I avoid it?
 
-**Update**: See my [follow-up post](/ka-hearth/posts/fix-for-new-issues) for a solution.
+**Update**: See my [follow-up post]({{ "/posts/fix-for-new-issues" | relative_url }}) for a solution.
 
 I'm going to include here several interesting code snippets I used for testing this, before confirming my findings with the Github issues linked above. The short answer is: don't create throw-away instances of classes.
 

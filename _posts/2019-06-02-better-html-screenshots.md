@@ -16,7 +16,7 @@ This is arguably the coolest one (if not the most important). [Bluebird](https:/
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
 <script>
-    /* High resolution HTML screenshot snippet (https://matthiassaihttam.github.io/ka-hearth/posts/better-html-screenshots) from Matthias and Bluebird. */
+    /* High resolution HTML screenshot snippet (https://matthiassaihttam.github.io{{ "/posts/better-html-screenshots" | relative_url }}) from Matthias and Bluebird. */
     var save = function() {
         html2canvas(document.body, {
             onrendered: function(canvas) {
@@ -63,11 +63,11 @@ img[src^="https://www.khanacademy.org"] {
 
 This is better than what the KA Hearth's screenshot looked like before these tricks (I didn't undo all the CSS changes I made)
 
-![](https://www.khanacademy.org/computer-programming/ka-hearth/5548688723509248/6538552732385280.png)
+![](https://www.khanacademy.org/computer-programming{{ "/5548688723509248/6538552732385280.png" | relative_url }})
 
 This is the KA Hearth's screenshot after applying these tricks.
 
-![](https://www.khanacademy.org/computer-programming/ka-hearth/5479641673728000/4890278636126208.png)
+![](https://www.khanacademy.org/computer-programming{{ "/5479641673728000/4890278636126208.png" | relative_url }})
 
 ## Do the screenshot hack
 

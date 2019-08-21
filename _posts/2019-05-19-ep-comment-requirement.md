@@ -6,7 +6,7 @@ title: EP requirement to comment
 As part of continued efforts to crack down on recent issues with a spammer posting links to a Google Doc promoting Nazi and white supremacist propaganda, Khan Academy has implemented an energy point requirement before being allowed to comment. You can still see comments, but in order to post a question, answer, T&T, or reply, you need at least 5,000 EPs.
 
 An example of the UI for a user with no energy points:
-![No reply buttons, and the text "Want to join the conversation? You need at least 5000 energy points to get started."](/ka-hearth/assets/images/no-eps-discussion.png)
+![No reply buttons, and the text "Want to join the conversation? You need at least 5000 energy points to get started."]({{ "/assets/images/no-eps-discussion.png" | relative_url }})
 
 #### Recap (with dates!)
 

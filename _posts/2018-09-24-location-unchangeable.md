@@ -9,4 +9,4 @@ I'm interested to know when this issue first began occurring. I first heard abou
 
 To clarify, this issue effects changing your location to an actual place; changing your location with a location text hack (either [my bookmarklet](https://khanacademy.org/cs/i/5671169815) or through the Firefox developer tools) is now the only way to change your location. However, this issue remains interesting, because it represents a relatively obscure feature of the site totally breaking, and I'm curious how long it will take for KA to fix this. The issue with including `"<", ">", "&"` in profiles hasn't been fixed, despite having been a big deal when it was introduced a year ago, so I wouldn't be surprised if we went a long time before this issue is fixed as well.
 
-Update: This has been resolved with [KA removing locations](/ka-hearth/posts/locations-removed.md).
+Update: This has been resolved with [KA removing locations]({{ "/posts/locations-removed.md" | relative_url }}).

@@ -22,6 +22,6 @@ You can use t.co by DMing yourself a link on Twitter and copying the result. I e
 
 This is a weird one. As pointed out to me by [Loki](https://khanacademy.org/profile/kaid_1167230140884859457175747), there are characters that browsers will strip out if they are included in a domain name. The one I found was everyone's favorite, the zero width space (`\u200b`). If you're not aware, this character is semantically a space character, but it has no width and is therefore invisible. (It's possible browsers ignore other invisible characters, but because I had one that worked for this purpose, I didn't try any others.)
 
-For example, in this link to [this article](https://matthiassaihttam.​github.​io/ka-hearth/posts/more-link-censoring-bypasses), there's a zero width space after each of the periods. One can still, however, copy and paste this link out of my bio and into the address bar to go to this post.
+For example, in this link to [this article](https://matthiassaihttam.​github.​io{{ "/posts/more-link-censoring-bypasses" | relative_url }}), there's a zero width space after each of the periods. One can still, however, copy and paste this link out of my bio and into the address bar to go to this post.
 
 I don't know why browsers ignore this character, because as far as I know, it's allowed to be included in a URL. I suppose it makes sense to prevent against phishing or similar attacks.

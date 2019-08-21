@@ -11,7 +11,7 @@ On Januaray 9th, 2019, Khan Academy removed locations from the website. I'm abou
 
 Locations were a line of text under bios on the profile page. In the normal profile editing UI, you could only set the location to options chosen from a dropdown, provided by the Google places API.
 
-![](/ka-hearth/assets/images/pamela-location.png)
+![]({{ "/assets/images/pamela-location.png" | relative_url }})
 
 Pamela's profile with a location (screenshot credit Light Runner for the KA Users Wikia).
 

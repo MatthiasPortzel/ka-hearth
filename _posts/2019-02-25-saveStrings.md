@@ -11,7 +11,7 @@ layout: default
 
 ### How do I use it in Processing.js?
 
-`saveStrings` and `loadStrings` are functions originally used by Processing to write data to a file. In Processing.js they write and read data from `localStorage` (what's the difference?: [Processing vs. Processing.js](/ka-hearth/posts/processing-processing-js)). For example:
+`saveStrings` and `loadStrings` are functions originally used by Processing to write data to a file. In Processing.js they write and read data from `localStorage` (what's the difference?: [Processing vs. Processing.js]({{ "/posts/processing-processing-js)" | relative_url }}). For example:
 ```js
 saveStrings("ka-hearth-saving-example", ["hi", 500, {}, "multi\nline"]);
 ```

@@ -5,7 +5,7 @@ layout: default
 
 I wrote this almost a year ago, but I didn't have anywhere to put it. I just remembered it, and so I'm posting it now.
 
-Also see the much shorter CSP post [here](/ka-hearth/posts/csp).
+Also see the much shorter CSP post [here]({{ "/posts/csp" | relative_url }}).
 
 **TL;DR:** You can't make POST requests. You don't want to be able to make POST requests.
 

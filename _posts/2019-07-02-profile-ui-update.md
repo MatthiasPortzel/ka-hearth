@@ -5,10 +5,10 @@ layout: default
 
 KA updated a couple of weeks ago to change the UI layout of user profiles and bios. I first noticed this change on June 18th. Below are screenshots before and after the changes. Prominent is the deemphasis of usernames. Visually, they now appear to be part of the bio.
 
-![](/ka-hearth/assets/images/pamela-no-location.png)
+![]({{ "/assets/images/pamela-no-location.png" | relative_url }})
 Before
 
-![](/ka-hearth/assets/images/pamela-new-profile.png)
+![]({{ "/assets/images/pamela-new-profile.png" | relative_url }})
 After
 
 

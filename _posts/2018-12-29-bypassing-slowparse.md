@@ -15,7 +15,7 @@ I had a couple of ideas, but none of them worked as well as the solution posted 
 
 Okay, just a little more before we get to the interesting part. I want to mention that the parser used by KA ([live-editor source link](https://github.com/Khan/live-editor/commit/7b2418209fd935c61aa0916f02893ea8d7dd7ea2)) for webpage projects (as Josh identified), is [Slowparse](https://github.com/mozilla/slowparse), by Mozilla. It's meant as an HTML validator, and so it throw errors for the custom attributes that Vue requires but that are not allowed by the HTML standard. Unfortunately, there's no official way to turn off its errors like there is with JSHint.
 
-One interesting thing to note, is that no run time errors in the webpage environment are passed to Oh Noes. This is in contrast to the `try...catch` step in the [PJS error flow](/ka-hearth/posts/error-buddy). Instead, webpages go through these steps:
+One interesting thing to note, is that no run time errors in the webpage environment are passed to Oh Noes. This is in contrast to the `try...catch` step in the [PJS error flow]({{ "/posts/error-buddy" | relative_url }}). Instead, webpages go through these steps:
 
 1. Script tags have infinite loop protect code added. (This requires parsing the JS with [Eprisma](https://github.com/Khan/live-editor/blob/67e6b62e9bca6b3ed6dc5dfdcedae98c86df5af1/js/output/shared/loop-protect.js#L197), so Javascript syntax errors will be returned here.)
 2. HTML is parsed with Slowparse.

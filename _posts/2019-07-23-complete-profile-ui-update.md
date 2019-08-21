@@ -12,7 +12,7 @@ Notable changes include:
 
 The area under MY STUFF is personalized. It's unclear how much flexibilty it has, but it appears that other tabs appear there, in addition to courses, based on your activity.
 
-![](/ka-hearth/assets/images/complete-new-profile.png)
+![]({{ "/assets/images/complete-new-profile.png" | relative_url }})
 
 Personally, I think that this is a good aesthetic change, it looks cleaner and still includes most of the same content. By far, the concern that has been the most vocalized is that the browse projects page is no longer one-click away from all pages on your profile. It is still possible to get to your projects (or badges) page by clicking "View All" on the widget on the main profile page. I have said that the KA Extension should be able to replace those missing sidebar links.
 
