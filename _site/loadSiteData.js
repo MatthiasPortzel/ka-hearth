@@ -1,7 +1,7 @@
 handleSiteData({
     "url": "http://ka-hearth.learnerpages.com/",
     "title": "KA Hearth",
-    "description": "A small blog where Matthias posts thoughts on things happening around Khan Academy. <a href=\"/ka-hearth/about\">About me</a>",
+    "description": "A small blog where Matthias posts thoughts on things happening around Khan Academy.",
     "github_url": "https://github.com/MatthiasSaihttam/ka-hearth",
     "posts": [
         {
