@@ -220,6 +220,13 @@ handleSiteData({
             "slug": "complete-profile-ui-update",
             "title": "Profile UI update",
             "excerpt": "<p>My <a href=\"profile-ui-update\">last post</a> had the URI <code class=\"highlighter-rouge\">profile-ui-update</code>. That post of course described the changes to the top part of the <a href=\"https://www.khanacademy.org/profile/me\">user profile page</a>, and I imagined that was as extreme of an update as we would see from KA for a while. On the contaray, that was just the beginning of a much larger profile re-work KA unvieled earlier today (noticed first by Elijah in Discord).</p>\n\n"
+        },
+        {
+            "url": "/posts/KA-API-Depreciation",
+            "date": "2019-11-06 00:00:00 -0500",
+            "slug": "KA-API-Depreciation",
+            "title": "KA Public API Depreciated",
+            "excerpt": "<p>Yesterday, KA <a href=\"https://github.com/Khan/khan-api/commit/f35d8aee5cb4c1fdfc19c3b024b69868cae2286d\">updated</a> the Github repository holding documentation for their publicly available API to contain a depreciation notice. It contains a timeline including when various endpoints will be depreciated, which I have included below. These depreciations begin in just 2 months from today, although KA giving some notice is better than none.</p>\n\n"
         }
     ]
 })
