@@ -10,13 +10,8 @@ You can find me on
 - Khan Academy ([@MatthiasSaihttam](https://khanacademy.org/profile/MatthiasSaihttam))
 - Github ([@MatthiasSaihttam](https://github.com/MatthiasSaihttam))
 - OurJSEditor ([@Matthias](https://ourjseditor.com/user/Matthias))
-- Rigby ([~Matthias](https://rigby.space/~Matthias))
-- CSUnderground ([Matthias](https://csunderground.org/profile/Matthias))
 - Mastodon ([@Matthias1@Mastodon.technologoy](https://mastodon.technology/web/accounts/114424))
-- YCombinator ([@Matthias1](https://news.ycombinator.com/user?id=Matthias1))
 - Discord (@Matthias#4910)
-- Reddit ([/u/MatthiasSaihttam1](https://reddit.com/u/MatthiasSaihttam1))
-- Twitter ([@Matthias_4910](https://twitter.com/Matthias_4910))
 
 I'm also reachable by email at Matthias1@vivaldi.net or MatthiasSaihttam1@gmail.com.
 
