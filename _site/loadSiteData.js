@@ -37,7 +37,7 @@ handleSiteData({
             "date": "2018-10-23 00:00:00 -0700",
             "slug": "new-memory-leak",
             "title": "Using Object Oriented Programming on KA causes memory leaks",
-            "excerpt": "<p>People have known for a long time, either through word of mouth or anecdotal experience that PVectors are a laggy solution. However, relatively few know of the Khan Academy bug that causes this behavior. Indeed, I didn’t until recently. That being said, the bug has been know for quite a long time, first being reported by Bob Lyon <a href=\"https://github.com/Khan/live-editor/issues/444\">here on Github</a>. And it was <a href=\"https://github.com/Khan/live-editor/commit/011551276711abe80e60cee12253c7ceb95c6c70\">fixed</a> by Kevin Barabash shortly after being reported, but the fix was tragically <a href=\"https://github.com/Khan/live-editor/commit/4c3e42072ab53b499b19e622e6b5fa681edd4b48\">reverted</a>, for <a href=\"https://github.com/Khan/live-editor/issues561#issuecomment-194096794\">causing other, undisclosed, issues</a>.</p>\n\n"
+            "excerpt": "<p>People have known for a long time, either through word of mouth or anecdotal experience that PVectors are a laggy solution. However, relatively few know of the Khan Academy bug that causes this behavior. Indeed, I didn’t until recently. That being said, the bug has been know for quite a long time, first being reported by Bob Lyon <a href=\"https://github.com/Khan/live-editor/issues/444\">here on Github</a>. And it was <a href=\"https://github.com/Khan/live-editor/commit/011551276711abe80e60cee12253c7ceb95c6c70\">fixed</a> by Kevin Barabash shortly after being reported, but the fix was tragically <a href=\"https://github.com/Khan/live-editor/commit/4c3e42072ab53b499b19e622e6b5fa681edd4b48\">reverted</a>, for <a href=\"https://github.com/Khan/live-editor/issues/561#issuecomment-194096794\">causing other, undisclosed, issues</a>.</p>\n\n"
         },
         {
             "url": "/posts/fix-for-new-issues",
@@ -225,8 +225,8 @@ handleSiteData({
             "url": "/posts/KA-API-Depreciation",
             "date": "2019-11-06 00:00:00 -0800",
             "slug": "KA-API-Depreciation",
-            "title": "KA Public API Depreciated",
-            "excerpt": "<p>Yesterday, KA <a href=\"https://github.com/Khan/khan-api/commit/f35d8aee5cb4c1fdfc19c3b024b69868cae2286d\">updated</a> the Github repository holding documentation for their publicly available API to contain a depreciation notice. It contains a timeline including when various endpoints will be depreciated, which I have included below. These depreciations begin in just 2 months from today, although KA giving some notice is better than none.</p>\n\n"
+            "title": "KA Public API Deprecated",
+            "excerpt": "<p>Yesterday, KA <a href=\"https://github.com/Khan/khan-api/commit/f35d8aee5cb4c1fdfc19c3b024b69868cae2286d\">updated</a> the Github repository holding documentation for their publicly available API to contain a deprecation notice. It contains a timeline including when various endpoints will be deprecated, which I have included below. These deprecations begin in just 2 months from today, although KA giving some notice is better than none.</p>\n\n"
         },
         {
             "url": "/posts/launching-ourjseditor",
@@ -241,6 +241,13 @@ handleSiteData({
             "slug": "leaving-challenge-council",
             "title": "Leaving the KA Challenge Council",
             "excerpt": "<p>Unfortunately, my time on the Challenge Council has come to an end. My daily use of Khan Academy has declined since I joined the council 2 years ago. And recently I haven’t been particularly active on the Challenge Council.</p>\n\n"
+        },
+        {
+            "url": "/posts/child-account-security-changes",
+            "date": "2020-06-18 00:00:00 -0700",
+            "slug": "child-account-security-changes",
+            "title": "Child account status is now checked through in the API",
+            "excerpt": "<p>Child accounts on KA can preform limited actions, like they cannot comment on programs. Previously, this was only checked on the client side, and by running some code, it was trivial to allow a child account to comment like a normal user.</p>\n\n"
         }
     ]
 })
