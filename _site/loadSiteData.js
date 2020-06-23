@@ -247,7 +247,7 @@ handleSiteData({
             "date": "2020-06-18 00:00:00 -0700",
             "slug": "child-account-security-changes",
             "title": "Child account status is now checked through in the API",
-            "excerpt": "<p>Child accounts on KA can preform limited actions, like they cannot comment on programs. Previously, this was only checked on the client side, and by running some code, it was trivial to allow a child account to comment like a normal user.</p>\n\n"
+            "excerpt": "<p>Child accounts on KA can perform limited actions, like they cannot comment on programs. Previously, this was only checked on the client side, and by running some code, it was trivial to allow a child account to comment like a normal user.</p>\n\n"
         }
     ]
 })
