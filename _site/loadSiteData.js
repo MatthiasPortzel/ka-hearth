@@ -86,7 +86,7 @@ handleSiteData({
             "date": "2018-11-24 00:00:00 -0800",
             "slug": "custom-audio",
             "title": "Uploading custom audio to KA",
-            "excerpt": "<p><a href=\"https://khanacademy.org/profile/kaid_901380113796617843784450\">Thomas Li</a> showed me a <a href=\"https://khanacademy.org/cs/i/6502440965406720\">program</a> he had made, which grabbed base64 audio data from the code of a KACS project, and loaded it as a <code class=\"highlighter-rouge\">data:</code> URL and played it. The problem was it didn’t work on KA because of KA’s Content Security Policy (CSP). He had a working mirror up on OurJSEditor though, and I thought it was pretty cool. My immediate reaction was, “Can I make this work on KA?”</p>\n\n"
+            "excerpt": "<p><strong>Update, while custom audio is still possible, this method has been patched. See the <a href=\"/posts/audio-thumbnails-update\">follow-up post</a></strong></p>\n\n"
         },
         {
             "url": "/posts/jresig-live-editor",
@@ -248,6 +248,20 @@ handleSiteData({
             "slug": "child-account-security-changes",
             "title": "Child account status is now checked through in the API",
             "excerpt": "<p>Child accounts on KA can perform limited actions, like they cannot comment on programs. Previously, this was only checked on the client side, and by running some code, it was trivial to allow a child account to comment like a normal user.</p>\n\n"
+        },
+        {
+            "url": "/posts/audio-thumbnails-update",
+            "date": "2020-07-24 00:00:00 -0700",
+            "slug": "audio-thumbnails-update",
+            "title": "Audio thumbnails patched",
+            "excerpt": "<p>This is a followup to a previous <a href=\"/posts/custom-audio\">post</a>, which described how it was possible to upload arbitrary base64 data to KA as a program image (“thumbnail” or “screenshot”).</p>\n\n"
+        },
+        {
+            "url": "/posts/script-to-upload-screenshots",
+            "date": "2020-07-24 00:00:00 -0700",
+            "slug": "script-to-upload-screenshots",
+            "title": "A Python script to perform the screenshot hack",
+            "excerpt": "<p>I wrote a small Python script to perform the screenshot hack. I realize I still haven’t written a post about the hack, but I won’t at this time. I merely wanted a place to share this code.</p>\n\n"
         }
     ]
 })

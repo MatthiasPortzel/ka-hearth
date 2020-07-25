@@ -3,6 +3,8 @@ title: Uploading custom audio to KA
 layout: default
 ---
 
+**Update, while custom audio is still possible, this method has been patched. See the [follow-up post](/posts/audio-thumbnails-update)**
+
 [Thomas Li](https://khanacademy.org/profile/kaid_901380113796617843784450) showed me a [program](https://khanacademy.org/cs/i/6502440965406720) he had made, which grabbed base64 audio data from the code of a KACS project, and loaded it as a `data:` URL and played it. The problem was it didn't work on KA because of KA's Content Security Policy (CSP). He had a working mirror up on OurJSEditor though, and I thought it was pretty cool. My immediate reaction was, "Can I make this work on KA?"
 
 To cut the suspense, [yes](https://khanacademy.org/cs/i/5490650088374272) (though that proof of concept program was hidden). The CSP for media (like audio) is `*.kastatic.org www.khanacademy.org *.kasandbox.org` (see my [CSP reference post]({{ "/csp)" | relative_url }}). This means we can only load audio from those domains, not from a random place on the internet or from arbitrary data. Theoretically, the screenshot hack allows us to host audio on `www.khanacademy.org`, which we can then load and play. There was the question of Content-Type, but the `new Audio` function in Javascript doesn't check content type, which allows this exploit to work.
